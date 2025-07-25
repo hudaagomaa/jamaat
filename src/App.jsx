@@ -4,12 +4,17 @@ function App() {
 
   return (
     <>
-      <h1>Welcome to Jamaat</h1>
-      <p>This is a simple React application.</p>
-      <p>Feel free to explore and modify the code!</p>
-      <p>Current version: 1.0.0</p>
-      <p>Enjoy coding!</p>
+      <div className="App container mt-5 text-center   bg-info">
+        <h2 className="text-white">My React Application</h2>
+        <h1 >Welcome to the App</h1>
+        <p>This is a simple React application.</p>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Application</p>
+      </footer>
      
+
+    
     </>
   )
 }
